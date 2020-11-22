@@ -7,21 +7,30 @@
         <link rel="stylesheet" href="styles.css">
         <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
 
-        <body>
-            <div>
-                <img src="images/me.png" alt="Photo of Andrey Pogosyan">
-                <h2 class="name">Andrey Pogosyan</h2>
-                <h3 class="role">Web Developer</h3>
-                <h4 class="role">Montreal, QC, Canada</h4>
-                <h4 class="role">Phone: (555) 555-555</h4>
-            </div>
+    <body>
+        <div class="main-nav">
+            <ul class="nav">
+              <li class="name">Andrey Pogosyan</li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="experience.html" target="_blank">Experience</a></li>
+              <li><a href="https://automatedclouds.blog/" target="_blank">Blog</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <img src="images/me.png" alt="Photo of Andrey Pogosyan" class="profile-image-experience">
+            <h2 class="name">Andrey Pogosyan</h2>
+            <h3 class="role">Web Developer</h3>
+            <h4 class="city">Montreal, QC, Canada</h4>
+            <h4 class="phone">Phone: (555) 555-555</h4>
+        </div>
         
             <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
-                <div> 
-                    <h2>Profile Summary</h2>
-                    <p>Highly Skilled, enthusiastic, and self-motivated Web Developer. Constantly working with new technologies and always keeping myself up to date through certifications, professional courses, blogs, and user groups.</p>
-                </div>
+        <div> 
+            <h2>Profile Summary</h2>
+            <p>Highly Skilled, enthusiastic, and self-motivated Web Developer. Constantly working with new technologies and always keeping myself up to date through certifications, professional courses, blogs, and user groups.</p>
+        </div>
 
             <hr style="height:2px;border-width:0;color:gray;background-color:gray">
             
@@ -30,7 +39,7 @@
                 <h1 style="text-decoration:underline;">Experience</h1>
                 <h2>Treehouse Techdegree - Student - Nov 2020 - Present</h2>
                 <p>Currently enrolled as a student in the Front End Web Development program. The curriculum covers the following languages:</p>
-                <ul>
+                <ul class="center">
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Javascript</li>
@@ -39,7 +48,7 @@
 
                 <h2>Dell Technologies - Senior Solutions Consultant - Nov 2018 - Present</h2>
                 <p>Senior Solutions Consultant, with focus on Datacenter, including storage, network, compute, and virtualzation.Key technologies:</p>
-                <ul>
+                <ul class="center">
                     <li>VMware vSphere</li>
                     <li>PowerEdge Compute</li>
                     <li>PowerVault ME4</li>
@@ -49,7 +58,7 @@
 
             <div class="align-center">
                 <h1 style="text-decoration:underline;">Certifications</h1>
-                    <ul>
+                    <ul class="center">
                         <li><a href="https://www.vmware.com/education-services/certification/vcp-dcv.html" target="_blank">VMware VCP</a></li>
                         <li><a href="https://www.vmware.com/education-services/certification/vsan-specialist.html" target="_blank">VMware VSAN Specialist</a></li>
                         <li><a href="https://aws.amazon.com/training/learn-about/cloud-practitioner/" target="_blank">Amazon Cloud Practitioner</a></li>
@@ -66,7 +75,7 @@
                             <th>Spanish</th>
                         </tr>
                     </table>    
-                </div>
-            </main>
-        </body>
+            </div>
+        </main>
+    </body>
 </html>
