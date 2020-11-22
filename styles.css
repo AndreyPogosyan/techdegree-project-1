@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/code.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -188,7 +188,25 @@ a.social:hover {
     padding: 0 30px;
   }
 
+  h2.name {
+    line-height: 0.1;
+  }
+  
+  h3.role {
+    line-height: 1.5;
+  }
 
+  h4.role {
+    line-height: 0.1;
+  }
+   
+  img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
   main {
     padding-top: 20px;
   }
@@ -202,6 +220,6 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
-
 }
+
 
